@@ -25,7 +25,7 @@ export class AuthComponent implements OnInit {
   login(form: NgForm) {        
     if ((form.value.loginEmail === 'admin') && (form.value.loginPassword === 'welcome123')) {
       this.authservice.grantAccess();
-      this.router.navigate(['/dashboard']);
+      this.router.navigate(['/students']);
     } else {      
       this.loginErrorMsg = 'Invalid Credentials';
     }

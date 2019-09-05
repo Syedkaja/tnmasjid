@@ -5,8 +5,18 @@ declare var $: any;
 @Injectable()
 export class jQueryService {
 
-    initialize() {
+    initialize(dataSet) {
         $(document).ready(function () {
+            $('#example').DataTable( {
+                data: dataSet,
+                columns: [
+                    { title: "Name" },
+                    { title: "Contact Person" },
+                    { title: "Address" },
+                    { title: "City" },
+                    { title: "Contact Number" }
+                ]
+            } );
         });
     }
 }
