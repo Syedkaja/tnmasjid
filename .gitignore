@@ -1,0 +1,56 @@
+#IDEs
+.editorconfig
+.vscode/*
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# compiled output
+app/dist
+app/tmp
+app/out-tsc
+
+# dependencies
+app/node_modules
+
+
+# misc
+app/.cache
+app/.sass-cache
+app/connect.lock
+app/coverage
+app/libpeerconnection.log
+app/npm-debug.log
+app/testem.log
+app/typings
+app/yarn-error.log
+app/yarn.lock
+
+# e2e
+app/e2e/*.js
+app/e2e/*.map
+app/e2e/*.*
+
+# System Files
+app/.DS_Store
+app/Thumbs.db
+
+
+# Python Files
+venv/
+__pycache__/
+.vscode/
+.coverage
+.coverage.*
+
+
+# Data
+app/src/assets/data/
