@@ -4,8 +4,11 @@ TN Masjid Base Application
 ## Initial Setup
 
 1.Clone the repo in local machine
+
 2.Create a seperate python3 virtual environment.
+
 3.Activate virtual environment and install required packages listed in requirements.txt
+
 4.Kindly do install nodemodules required for front end inside the app/ folder with the any of the following method.
 
 ## install npm packages using yarn or npm
